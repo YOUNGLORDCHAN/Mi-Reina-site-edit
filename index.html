@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GABRIELLA | Digital Growth Academy</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: #fff;
+  color: #333;
+}
+
+a { text-decoration: none; color: inherit; }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+nav a {
+  font-weight: bold;
+  color: #8a2be2;
+  font-size: 1.1em;
+}
+
+nav a:hover { color: #ff69b4; }
+
+header {
+  text-align: center;
+  padding: 120px 20px 80px 20px;
+  background: linear-gradient(135deg, #8a2be2, #ff69b4, #000);
+  color: white;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 20px auto;
+}
+
+.slide {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active { opacity: 1; }
+
+header h1 { font-size: 2.5em; margin: 0; }
+header p { font-size: 1.2em; margin-top: 10px; }
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover { background: #8a2be2; }
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 60px;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  color: #8a2be2;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1 0 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+  color: #ff69b4;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 1.1em;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-links a {
+  padding: 12px 20px;
+  background: #8a2be2;
+  color: white;
+  border-radius: 8px;
+}
+
+.contact-links a:hover { background: #ff69b4; }
+
+.motivational {
+  max-width: 800px;
+  margin: auto;
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+  <div class="slideshow-container">
+    <img class="slide active" src="https://i.postimg.cc/Z9M6QvnZ/IMG-20260201-WA0011.jpg">
+    <img class="slide" src="https://i.postimg.cc/yg30C63S/IMG-20260201-WA0015.jpg">
+    <img class="slide" src="https://i.postimg.cc/75wq7Bqc/IMG-20260211-WA0033.jpg">
+  </div>
+  <h1>GABRIELLA</h1>
+  <p>Empowering Brands & Individuals to Thrive Digitally</p>
+  <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact Me</button>
+</header>
+
+<main>
+
+<section id="about">
+  <h2 class="section-title">About Gabriella</h2>
+  <p class="about-text">
+    Hi, I’m Gabriella. I’m a digital marketer dedicated to helping you thrive in today’s economy.
+    I sell ready-made digital products—tools and templates that you can use immediately to start generating income.
+    But I don’t just give you the tools; I give you the talent.
+  </p>
+
+  <h2 class="section-title">Skills & Programs</h2>
+
+  <div class="skills">
+
+    <div class="skill-card"><h3>Digital Marketing</h3>Promote products and earn high commissions.</div>
+    <div class="skill-card"><h3>Ghostwriting</h3>Writing for others to build influence and income.</div>
+    <div class="skill-card"><h3>Graphic Design</h3>Creating stunning visuals that capture attention.</div>
+    <div class="skill-card"><h3>Forex Trading</h3>Navigating financial markets to grow wealth.</div>
+    <div class="skill-card"><h3>Video Editing</h3>Crafting high-quality content for brands and social media.</div>
+
+    <div class="skill-card"><h3>WhatsApp Instant Marketing</h3>Master WhatsApp automation and sales systems.</div>
+    <div class="skill-card"><h3>Facebook Ads</h3>Run high-converting ads directly from your smartphone.</div>
+    <div class="skill-card"><h3>Google Ads Mastery</h3>Generate quality traffic and leads consistently.</div>
+    <div class="skill-card"><h3>Affiliate Marketing</h3>Build profitable funnels and earn commissions.</div>
+    <div class="skill-card"><h3>Mini Importation</h3>Source high-demand goods and resell for profit.</div>
+    <div class="skill-card"><h3>China Direct Import</h3>Buy directly from platforms like 1688 without middlemen.</div>
+    <div class="skill-card"><h3>Amazon KDP</h3>Publish low-content books using your phone or laptop.</div>
+    <div class="skill-card"><h3>Tech Without Coding</h3>Enter tech through non-coding roles.</div>
+    <div class="skill-card"><h3>Computer Skills in 28 Days</h3>Master essential digital literacy fast.</div>
+    <div class="skill-card"><h3>Storywriting Accelerator</h3>Use storytelling to boost conversions.</div>
+    <div class="skill-card"><h3>Weightloss in 30 Days</h3>Structured fitness and nutrition plan.</div>
+    <div class="skill-card"><h3>Crypto Investing</h3>Learn safe cryptocurrency investing strategies.</div>
+    <div class="skill-card"><h3>Instagram Growth</h3>Grow and monetize your audience.</div>
+    <div class="skill-card"><h3>Sales Funnel Systems</h3>Build automated 24/7 conversion funnels.</div>
+    <div class="skill-card"><h3>High-Performance Mindset</h3>Develop discipline and focus for success.</div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact & Socials</h2>
+
+  <div class="contact-links">
+    <a href="https://www.instagram.com/gabbyita?igsh=Z2xzZG9jcDRuYmw1&utm_source=qr" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@gabby.isa_vip" target="_blank">TikTok</a>
+    <a href="https://wa.link/forixu" target="_blank">WhatsApp</a>
+    <a href="mailto:aisagbonosasogie@gmail.com">Email</a>
+  </div>
+
+  <h2 class="section-title">Motivation</h2>
+  <div class="motivational">
+    “Success doesn’t just find you. You have to go out and get it.”
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2026 Gabriella. All Rights Reserved.
+</footer>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+setInterval(() => {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}, 4000);
+</script>
+
+</body>
+</html>
